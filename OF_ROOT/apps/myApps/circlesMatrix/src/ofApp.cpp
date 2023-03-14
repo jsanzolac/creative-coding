@@ -34,10 +34,12 @@ void ofApp::draw(){
                ofMap(ofGetMouseX(), 0, ofGetWidth(), 0, 255)
                );
     
+    int r = ofMap(ofGetMouseX(), 0, ofGetWidth(), 10, 70);
+    
     for (int i = 0; i < x_frame_size-1; i++){
         for (int j = 0; j < y_frame_size-1; j++){
             
-            ofDrawCircle(x + var_x, y + var_y, 30);
+            ofDrawCircle(x + var_x, y + var_y, r);
             x += x_frame_size;
             
         }
