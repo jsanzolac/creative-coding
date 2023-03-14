@@ -1,13 +1,7 @@
 # creative-coding
 Experimentation and art through code.
 
-The code for each project can be found in: 
-
-  |- OF_ROOT
-  |     |- apps
-  |     |   |- myApps
-  |     |   |   |- someApp
-  |     |   |   |   |- src
+The code for each project can be found in: OF_ROOT/apps/myApps/someApp/src
   
   
 ## P1: Circles matrix:
